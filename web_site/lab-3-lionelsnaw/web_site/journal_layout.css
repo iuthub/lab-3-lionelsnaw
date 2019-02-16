@@ -1,0 +1,46 @@
+.container  {
+	border: 10px white solid;
+	background-color: white;
+	margin-right: 10%;
+	margin-left: 10%
+}
+body {
+background-image: url(images/bgimg.jpg);
+}
+.title-page {
+	background-color: #A8F0F0;
+	text-align: right;
+}
+.sub-title {
+	font-size: 14pt;
+}
+.bordered {
+	border-bottom: 2px blue dashed;
+}
+.content {
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 0px;
+	overflow: hidden;
+	clear: right;
+}
+.align {
+	float: right;
+}
+.friends {
+	border: 5px blue solid;
+	background-color: #eee;
+	overflow: hidden;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+}
+
+a:hover,
+h2:hover,
+img:hover,
+h1:hover {
+	background-color: yellow;
+}
